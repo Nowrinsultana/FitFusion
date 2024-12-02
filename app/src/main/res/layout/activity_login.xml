@@ -1,0 +1,103 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_background"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FitFusion"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tagline_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empowering to Achieve Fitness Goals"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#616060"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/spinner_background"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textColorHint="#616060"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/spinner_background"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#25646464"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <!-- Google Sign-In Button -->
+    <LinearLayout
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="@drawable/spinner_background"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/google_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue with Google"
+            android:textColor="#050505"
+            android:textSize="18sp"
+            android:paddingStart="8dp" />
+    </LinearLayout>
+
+    <!-- Register Text -->
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register here"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="30dp" />
+</LinearLayout>

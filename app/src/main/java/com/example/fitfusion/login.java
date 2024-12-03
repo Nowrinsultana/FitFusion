@@ -105,21 +105,7 @@ public class login extends AppCompatActivity {
                 });
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1001) {
-            try {
-                SignInCredential credential = oneTapClient.getSignInCredentialFromIntent(data);
-                String idToken = credential.getGoogleIdToken();
-                if (idToken != null) {
-                    firebaseAuthWithGoogle(idToken);
-                }
-            } catch (Exception e) {
-                Log.e(TAG, "Error retrieving credential", e);
-            }
-        }
-    }
+  
 
     private void firebaseAuthWithGoogle(String idToken) {
         AuthCredential firebaseCredential = GoogleAuthProvider.getCredential(idToken, null);

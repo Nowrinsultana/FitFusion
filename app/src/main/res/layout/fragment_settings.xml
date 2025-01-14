@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Profile -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardProfile"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Profile"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Notification -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardNotification"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Notification"
+                android:drawableLeft="@drawable/baseline_notifications_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Preferences -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardPreferences"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Preferences"
+                android:drawableLeft="@drawable/baseline_settings_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Privacy and Security -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardPrivacy"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Privacy and Security"
+                android:drawableLeft="@drawable/baseline_privacy_tip_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Fitness Tracking & Syncing -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardFitnessTracking"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Fitness Tracking and Syncing"
+                android:drawableLeft="@drawable/baseline_auto_graph_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Subscriptions & Payments -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardSubscriptions"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Subscriptions and Payments"
+                android:drawableLeft="@drawable/baseline_payment_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- App Customization -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardCustomization"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="App Customization"
+                android:drawableLeft="@drawable/baseline_edit_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Community & Sharing -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/cardCommunity"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Community and Sharing"
+                android:drawableLeft="@drawable/baseline_share_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Help & Support -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardHelp"
+            android:layout_marginBottom="12dp"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Help or Support"
+                android:drawableLeft="@drawable/baseline_help_outline_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Logout and Deactivation -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardLogout"
+            android:layout_marginBottom="12dp"
+            android:elevation="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/spinner_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Logout and Deactivation"
+                android:drawableLeft="@drawable/baseline_logout_24"
+                android:drawablePadding="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

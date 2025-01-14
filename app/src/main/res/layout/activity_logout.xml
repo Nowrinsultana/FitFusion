@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_background"
+    android:padding="20dp">
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#25646464"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#25646464"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FitFusion</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_Dashboard">Dashboard</string>
+    <string name="title_Workout">Workout</string>
+    <string name="title_Advice">Advice</string>
+    <string name="title_Settings">Settings</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="workout_icon" />
+
+</resources>

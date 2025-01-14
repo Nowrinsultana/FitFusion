@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Get Started!"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textColor="#333333"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter your age"
+        android:textColorHint="#BB383838"
+        android:textColor="@color/black"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:background="@drawable/spinner_background"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight (kg)"
+        android:textColor="#333333"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter your weight"
+        android:textColorHint="#BB383838"
+        android:textColor="@color/black"
+        android:background="@drawable/spinner_background"
+        android:padding="10dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height (cm)"
+        android:textColor="#333333"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter your height"
+        android:textColorHint="#BB383838"
+        android:textColor="@color/black"
+        android:background="@drawable/spinner_background"
+        android:padding="10dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitness Goal"
+        android:textColor="#333333"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:hint="Enter your goal"
+        android:textColorHint="#BB383838"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:backgroundTint="#67FDFDFD"
+        android:textColor="#040303"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

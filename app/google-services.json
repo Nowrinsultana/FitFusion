@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "422599016045",
+    "project_id": "fitfusion-d78d6",
+    "storage_bucket": "fitfusion-d78d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422599016045:android:afd1b9401a83f87e5e0964",
+        "android_client_info": {
+          "package_name": "com.example.fitfusion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422599016045-l0v19hinr8tnar6bfoo0het1hjqgbqqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitfusion",
+            "certificate_hash": "de301aa19cd9fe8996d48f5390b16d0d738b9fb5"
+          }
+        },
+        {
+          "client_id": "422599016045-lps8d63e7fqp756qn0t61lqdpt014buk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdrIDwebpJWEeKnu1RWMNyRMJ7c0Gg3wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422599016045-lps8d63e7fqp756qn0t61lqdpt014buk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
